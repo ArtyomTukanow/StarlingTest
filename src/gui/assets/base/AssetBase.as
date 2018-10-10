@@ -1,4 +1,4 @@
-package window.assets.base {
+package gui.assets.base {
 import flash.display.Bitmap;
 import flash.utils.Dictionary;
 
@@ -11,8 +11,8 @@ public class AssetBase {
         return AssetBase;
     }
 
-    private var _gameTextures:Dictionary = new Dictionary();
-    private var _gameTextureAtlases:Dictionary = new Dictionary();
+    private static var _gameTextures:Dictionary = new Dictionary();
+    private static var _gameTextureAtlases:Dictionary = new Dictionary();
 
     public function getTexture(name:String):Texture {
         if (_gameTextures[name] == undefined) {

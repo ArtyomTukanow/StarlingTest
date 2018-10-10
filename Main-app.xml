@@ -45,48 +45,48 @@
         <extensionID></extensionID>
     </extensions>-->
 
-    <!-- Settings for the application's initial window. Required. -->
+    <!-- Settings for the application's initial gui. Required. -->
     <initialWindow>
         <!-- The main SWF or HTML file of the application. Required. -->
         <content>SWF file name is set automatically at compile time</content>
 
-        <!-- The title of the main window. Optional. -->
+        <!-- The title of the main gui. Optional. -->
         <!--<title></title>-->
 
         <!-- The type of system chrome to use (either "standard" or "none"). Optional. Default standard. -->
         <!--<systemChrome></systemChrome>-->
 
-        <!-- Whether the window is transparent. Only applicable when systemChrome is none. Optional. Default false. -->
+        <!-- Whether the gui is transparent. Only applicable when systemChrome is none. Optional. Default false. -->
         <!--<transparent></transparent>-->
 
-        <!-- Whether the window is initially visible. Optional. Default false. -->
+        <!-- Whether the gui is initially visible. Optional. Default false. -->
         <visible>true</visible>
 
-        <!-- Whether the user can minimize the window. Optional. Default true. -->
+        <!-- Whether the user can minimize the gui. Optional. Default true. -->
         <!--<minimizable></minimizable>-->
 
-        <!-- Whether the user can maximize the window. Optional. Default true. -->
+        <!-- Whether the user can maximize the gui. Optional. Default true. -->
         <!--<maximizable></maximizable>-->
 
-        <!-- Whether the user can resize the window. Optional. Default true. -->
+        <!-- Whether the user can resize the gui. Optional. Default true. -->
         <!--<resizable></resizable>-->
 
-        <!-- The window's initial width in pixels. Optional. -->
+        <!-- The gui's initial width in pixels. Optional. -->
         <!--<width></width>-->
 
-        <!-- The window's initial height in pixels. Optional. -->
+        <!-- The gui's initial height in pixels. Optional. -->
         <!--<height></height>-->
 
-        <!-- The window's initial x position. Optional. -->
+        <!-- The gui's initial x position. Optional. -->
         <!--<x></x>-->
 
-        <!-- The window's initial y position. Optional. -->
+        <!-- The gui's initial y position. Optional. -->
         <!--<y></y>-->
 
-        <!-- The window's minimum size, specified as a width/height pair in pixels, such as "400 200". Optional. -->
+        <!-- The gui's minimum size, specified as a width/height pair in pixels, such as "400 200". Optional. -->
         <!--<minSize></minSize>-->
 
-        <!-- The window's initial maximum size, specified as a width/height pair in pixels, such as "1600 1200". Optional. -->
+        <!-- The gui's initial maximum size, specified as a width/height pair in pixels, such as "1600 1200". Optional. -->
         <!--<maxSize></maxSize>-->
 
         <!-- The aspect ratio of the app ("portrait" or "landscape" or "any"). Optional. Mobile only. Default is the natural orientation of the device -->

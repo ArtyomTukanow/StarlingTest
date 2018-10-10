@@ -1,15 +1,10 @@
-package window.assets {
-import window.assets.base.AssetBase;
+package gui.assets {
+import gui.assets.base.AssetBase;
 
-public class FriendInviteAssets extends AssetBase {
-
+public class StandardAssets extends AssetBase {
     protected override function get currentClass():Class {
-        return FriendInviteAssets;
+        return StandardAssets;
     }
-
-    [Embed(source="../../../media/assets/background.png")]
-    public static const Background:Class;
-    public static const BACKGROUND:String = "Background";
 
     [Embed(source="../../../media/assets/atlas.png")]
     public static const atlas:Class;
@@ -35,7 +30,5 @@ public class FriendInviteAssets extends AssetBase {
     public static const WIN_BTN_CLOSE_OVER:String = "WIN_btn_close_over";
     public static const WIN_BTN_GREEN_NORM:String = "WIN_btn_green_norm";
     public static const WIN_BTN_GREEN_OVER:String = "WIN_btn_green_over";
-    public static const WIN_GIFT_MOUSE_B:String = "WIN_gift_mouseB";
-    public static const WIN_GIFT_MOUSE_W:String = "WIN_gift_mouseW";
 }
 }

@@ -2,9 +2,9 @@ package {
 import flash.display.Sprite;
 import starling.core.Starling;
 
-import window.model.FriendInviteWindow;
+import gui.windows.FriendInviteWindow;
 
-[SWF(frameRate="60", width="898", height="649", backgroundColor="0x333333")]
+[SWF(frameRate="60", width="663", height="573", backgroundColor="0x333333")]
 public class Main extends Sprite
 {
     private var myStarling:Starling;

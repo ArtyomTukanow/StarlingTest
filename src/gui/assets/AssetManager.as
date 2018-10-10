@@ -1,4 +1,4 @@
-package window.assets {
+package gui.assets {
 
 public class AssetManager {
     private static var _instance:AssetManager =  new AssetManager();
@@ -9,7 +9,8 @@ public class AssetManager {
             throw new Error("Instance already created");
     }
 
-    public var friendInviteAssets:FriendInviteAssets = new window.assets.FriendInviteAssets();
-    //other windows here..
+    public var friendInviteAssets:FriendInviteAssets = new FriendInviteAssets();
+    public var standardAssets:StandardAssets = new StandardAssets();
+    //other assets here..
 }
 }
