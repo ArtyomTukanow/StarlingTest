@@ -1,6 +1,4 @@
 package gui.elements.panels {
-import gui.elements.panels.PagePanelBase;
-
 import starling.display.Sprite;
 import starling.events.Event;
 

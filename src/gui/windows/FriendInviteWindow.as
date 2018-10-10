@@ -1,12 +1,9 @@
 package gui.windows {
-import gui.assets.FriendInviteAssets;
 import gui.elements.checkboxes.Checkbox;
 import gui.elements.covers.CoverBase;
 import gui.elements.panels.FriendPanel;
 import gui.elements.tabs.FriendInviteTab;
-import starling.display.Image;
 import starling.events.Event;
-import gui.assets.AssetManager;
 import gui.windows.base.WindowBase;
 import gui.elements.buttons.CloseButton;
 import gui.elements.buttons.GreenButton;
@@ -32,20 +29,13 @@ public class FriendInviteWindow extends WindowBase{
         _closeBtn = new CloseButton(610, 45);
         _cover.addChild(_closeBtn);
 
-        var mouseW:Image = new Image(AssetManager.Instance.friendInviteAssets.getAtlasTexture(FriendInviteAssets.ATLAS, FriendInviteAssets.WIN_GIFT_MOUSE_W));
-        var mouseB:Image = new Image(AssetManager.Instance.friendInviteAssets.getAtlasTexture(FriendInviteAssets.ATLAS, FriendInviteAssets.WIN_GIFT_MOUSE_B));
-        mouseB.x = -20;
-        mouseB.y = 345;
-        mouseW.x = 465;
-        mouseW.y = -15;
-        _cover.addChild(mouseW);
+
 
         _friendInviteTab = new FriendInviteTab();
 
         _friendInviteTab.x = 55;
         _friendInviteTab.y = 185;
         _cover.addChild(_friendInviteTab);
-        _cover.addChild(mouseB);
         _friendPanel = new FriendPanel(new Vector.<Object>(25));
         _friendPanel.x = 60;
         _friendPanel.y = 60;

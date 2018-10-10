@@ -94,6 +94,7 @@ public class PagePanelBase extends Sprite {
                 currIdInPage ++;
             }
         }
+        update();
     }
 
     protected function update():void {

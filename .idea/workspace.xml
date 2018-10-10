@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fe9ca2c-19dd-4d3d-b016-9af86703d4b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/gui/elements/panels/ElementBase.as" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/elements/panels/FriendElement.as" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/elements/panels/FriendPanel.as" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/elements/panels/PagePanelBase.as" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/StarlingTest/Main.swf" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StarlingTest/Main.swf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/elements/checkboxes/Checkbox.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/elements/checkboxes/Checkbox.as" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/elements/checkboxes/CheckboxBase.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/elements/checkboxes/base/CheckboxBase.as" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/elements/checkboxes/PurpleTabButton.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/elements/checkboxes/PurpleTabButton.as" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/elements/panels/ElementBase.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/elements/panels/ElementBase.as" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/elements/panels/FriendElement.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/elements/panels/FriendElement.as" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/elements/panels/PagePanelBase.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/elements/panels/PagePanelBase.as" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/elements/tabs/FriendInviteTab.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/elements/tabs/FriendInviteTab.as" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/windows/FriendInviteWindow.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/windows/FriendInviteWindow.as" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,26 +23,27 @@
     <session id="2013268479">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.16" value="6" />
           <entry key="project.open.time.17" value="8" />
           <entry key="project.open.time.18" value="4" />
-          <entry key="project.open.time.19" value="6" />
+          <entry key="project.open.time.19" value="7" />
           <entry key="project.open.time.20" value="4" />
           <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="39" />
+          <entry key="project.opened" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="as" value="144" />
+          <entry key="as" value="150" />
           <entry key="iml" value="2" />
           <entry key="js2" value="1" />
           <entry key="png" value="6" />
@@ -52,7 +52,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ActionScript" value="145" />
+          <entry key="ActionScript" value="151" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="Image" value="6" />
           <entry key="XML" value="7" />
@@ -60,18 +60,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="as" value="7806" />
+          <entry key="as" value="7966" />
           <entry key="iml" value="1" />
           <entry key="js2" value="11" />
-          <entry key="txt" value="52" />
+          <entry key="txt" value="96" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ActionScript" value="7817" />
+          <entry key="ActionScript" value="7977" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="PLAIN_TEXT" value="52" />
+          <entry key="PLAIN_TEXT" value="96" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -79,56 +79,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/windows/FriendInviteWindow.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
-              <folding>
-                <element signature="e#22#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/FriendPanel.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/ElementBase.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="24" />
-              <folding>
-                <element signature="e#30#71#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/PagePanelBase.as">
+        <entry file="file://$PROJECT_DIR$/src/gui/elements/tabs/FriendInviteTab.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="78" column="52" lean-forward="true" selection-start-line="78" selection-start-column="52" selection-end-line="78" selection-end-column="52" />
+            <state relative-caret-position="359">
+              <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
               <folding>
-                <element signature="e#30#61#0" expanded="true" />
+                <element signature="e#28#59#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/FriendElement.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -205,19 +163,19 @@
         <option value="$PROJECT_DIR$/src/gui/elements/buttons/CloseButton.as" />
         <option value="$PROJECT_DIR$/src/gui/elements/buttons/GreenButton.as" />
         <option value="$PROJECT_DIR$/src/gui/elements/checkboxes/PurpleTabCheckbox.as" />
-        <option value="$PROJECT_DIR$/src/gui/elements/checkboxes/Checkbox.as" />
         <option value="$PROJECT_DIR$/src/gui/elements/checkboxes/CheckboxBase.as" />
-        <option value="$PROJECT_DIR$/src/gui/elements/checkboxes/PurpleTabButton.as" />
-        <option value="$PROJECT_DIR$/src/gui/elements/tabs/FriendInviteTab.as" />
         <option value="$PROJECT_DIR$/src/Main.as" />
         <option value="$PROJECT_DIR$/src/gui/elements/panels/ElementPanelBase.as" />
         <option value="$PROJECT_DIR$/src/gui/elements/checkboxes/base/CheckboxBase.as" />
         <option value="$PROJECT_DIR$/src/gui/elements/panels/ElementFriendBase.as" />
+        <option value="$PROJECT_DIR$/src/gui/elements/panels/FriendPanel.as" />
+        <option value="$PROJECT_DIR$/src/gui/elements/panels/PagePanelBase.as" />
         <option value="$PROJECT_DIR$/src/gui/windows/FriendInviteWindow.as" />
         <option value="$PROJECT_DIR$/src/gui/elements/panels/ElementBase.as" />
         <option value="$PROJECT_DIR$/src/gui/elements/panels/FriendElement.as" />
-        <option value="$PROJECT_DIR$/src/gui/elements/panels/FriendPanel.as" />
-        <option value="$PROJECT_DIR$/src/gui/elements/panels/PagePanelBase.as" />
+        <option value="$PROJECT_DIR$/src/gui/elements/checkboxes/PurpleTabButton.as" />
+        <option value="$PROJECT_DIR$/src/gui/elements/checkboxes/Checkbox.as" />
+        <option value="$PROJECT_DIR$/src/gui/elements/tabs/FriendInviteTab.as" />
       </list>
     </option>
   </component>
@@ -282,6 +240,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gui" type="462c0819:PsiDirectoryNode" />
               <item name="elements" type="462c0819:PsiDirectoryNode" />
+              <item name="checkboxes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarlingTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarlingTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+              <item name="checkboxes" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarlingTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarlingTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
               <item name="covers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -291,6 +266,14 @@
               <item name="gui" type="462c0819:PsiDirectoryNode" />
               <item name="elements" type="462c0819:PsiDirectoryNode" />
               <item name="panels" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarlingTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarlingTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+              <item name="tabs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StarlingTest" type="b2602c69:ProjectViewProjectNode" />
@@ -310,7 +293,7 @@
     <property name="SearchEverywhereHistoryKey" value="panel&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/elements/panels/PagePanelBase.as&#10;FriendElement&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/elements/panels/FriendElement.as&#10;Close&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/elements/buttons/CloseButton.as&#10;Frie&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/window/model/FriendInviteWindow.as&#10;S&#9;FILE&#9;file://C:/Users/User/work/starling-2.4/starling/src/starling/core/Starling.as&#10;star&#9;FILE&#9;file://C:/Users/User/work/starling-2.4/starling/src/starling/core/Starling.as" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539174576822" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539182171249" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Main-app.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -430,6 +413,8 @@
       <workItem from="1539177112830" duration="929000" />
       <workItem from="1539178334402" duration="743000" />
       <workItem from="1539179546508" duration="1075000" />
+      <workItem from="1539180771532" duration="877000" />
+      <workItem from="1539181692097" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="Добавлены элементы checkbox, tab">
       <created>1539168289932</created>
@@ -438,17 +423,24 @@
       <option name="project" value="LOCAL" />
       <updated>1539168289932</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added PagePanel whith elements">
+      <created>1539180975972</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539180975972</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36741000" />
+    <option name="totallyTimeSpent" value="37931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22919819" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23676248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -458,7 +450,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.30769232" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30769232" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -486,7 +478,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавлены элементы checkbox, tab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлены элементы checkbox, tab" />
+    <MESSAGE value="Added PagePanel whith elements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added PagePanel whith elements" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/work/starling-2.4/starling/src/starling/display/DisplayObjectContainer.as">
@@ -603,13 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/elements/checkboxes/PurpleTabButton.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/elements/buttons/CloseButton.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -652,47 +638,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/elements/checkboxes/base/CheckboxBase.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/ElementFriendBase.as" />
-    <entry file="file://$PROJECT_DIR$/src/gui/elements/tabs/FriendInviteTab.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-205">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#28#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/elements/checkboxes/Checkbox.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/assets/atlas.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/FriendElement.as">
+    <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/PagePanelBase.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="270">
+          <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+          <folding>
+            <element signature="e#30#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/windows/FriendInviteWindow.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
-            <element signature="e#22#59#0" expanded="true" />
+            <element signature="e#22#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -700,26 +665,60 @@
     <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/FriendPanel.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/ElementBase.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="24" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
-            <element signature="e#30#71#0" expanded="true" />
+            <element signature="e#31#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/PagePanelBase.as">
+    <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/FriendElement.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="78" column="52" lean-forward="true" selection-start-line="78" selection-start-column="52" selection-end-line="78" selection-end-column="52" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/elements/checkboxes/base/CheckboxBase.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
           <folding>
-            <element signature="e#30#61#0" expanded="true" />
+            <element signature="e#39#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/elements/checkboxes/Checkbox.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
+          <folding>
+            <element signature="e#34#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/elements/checkboxes/PurpleTabButton.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/elements/tabs/FriendInviteTab.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+          <folding>
+            <element signature="e#28#59#0" expanded="true" />
           </folding>
         </state>
       </provider>

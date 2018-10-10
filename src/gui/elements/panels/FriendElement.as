@@ -2,8 +2,6 @@ package gui.elements.panels {
 import gui.assets.AssetManager;
 import gui.assets.StandardAssets;
 import gui.elements.checkboxes.Checkbox;
-import gui.elements.panels.PagePanelBase;
-
 import starling.display.Image;
 import starling.events.Event;
 import starling.text.TextField;
