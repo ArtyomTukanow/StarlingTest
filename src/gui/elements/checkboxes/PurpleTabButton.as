@@ -30,7 +30,7 @@ public class PurpleTabButton extends CheckboxBase {
     }
 
     public override function update():void {
-        if(checked) {
+        if(_checked) {
             this.upState = _purpleNormEn;
             this.downState = _purpleNormEn;
             this.overState = _purpleOverEn;

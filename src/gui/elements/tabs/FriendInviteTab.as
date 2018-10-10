@@ -44,19 +44,26 @@ public class FriendInviteTab extends Sprite{
 
         for (var i:int = 0; i < _tabs.length; i ++) {
             _tabs[i] = new Sprite();
-            this.addChild(_tabs[_currentTabId]);
+            this.addChild(_tabs[i]);
         }
         _tabButtons[_currentTabId].checked = true;
+
+        update();
+    }
+
+    private function update():void {
+        for(var i:int = 0; i < _tabs.length; i ++)
+            _tabs[i].visible = _tabButtons[i].checked;
     }
 
     private function onTabButtonChecked(object:Object):void {
         var tab:PurpleTabButton = object.target as PurpleTabButton;
         for(var i:int = 0; i < _tabButtons.length; i ++) {
-            _tabs[i].visible = tab == _tabButtons[i];
             if(tab != _tabButtons[i]) {
                 (_tabButtons[i] as PurpleTabButton).checked = false;
             }
         }
+        update();
     }
 }
 }

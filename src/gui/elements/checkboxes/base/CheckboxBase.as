@@ -31,13 +31,11 @@ public class CheckboxBase extends Button {
     }
 
     protected function onCheck(event:Event):void {
+        _checked = !_checked;
         if(_onMouseDown != null) {
             var obj:Object = {target:this};
             _onMouseDown(obj);
         }
-
-        _checked = !_checked;
-
         update();
     }
 
