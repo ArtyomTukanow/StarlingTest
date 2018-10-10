@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:8e2cf2ddccd38c6b33ea90089eaefec1:550ae1716dc77d3ee47ed45b2d161eb6:cde709370900f12288f3449eded86f07$ -->
+<TextureAtlas imagePath="atlas.png" width="983" height="765">
+    <SubTexture name="bg_big_purple" x="1" y="1" width="663" height="573"/>
+    <SubTexture name="bg_big_purple_board_gift" x="666" y="1" rotated="true" width="316" height="590"/>
+    <SubTexture name="bg_big_purple_title" x="1" y="576" width="235" height="78"/>
+    <SubTexture name="btn_purple_norm_dis" x="1" y="656" width="205" height="50"/>
+    <SubTexture name="btn_purple_norm_en" x="456" y="631" width="205" height="50"/>
+    <SubTexture name="btn_purple_over_dis" x="456" y="683" width="205" height="50"/>
+    <SubTexture name="btn_purple_over_en" x="208" y="707" width="205" height="50"/>
+    <SubTexture name="checkbox_norm" x="933" y="680" width="32" height="33"/>
+    <SubTexture name="checkbox_over" x="933" y="715" width="32" height="33"/>
+    <SubTexture name="check" x="208" y="656" width="23" height="24"/>
+    <SubTexture name="friend_board" x="1" y="708" width="205" height="49"/>
+    <SubTexture name="friend_frame" x="617" y="576" width="45" height="45"/>
+    <SubTexture name="friend_frame_empty" x="933" y="593" width="45" height="45"/>
+    <SubTexture name="WIN_btn_arrow_norm" x="454" y="735" width="31" height="29"/>
+    <SubTexture name="WIN_btn_arrow_over" x="487" y="735" width="31" height="29"/>
+    <SubTexture name="WIN_btn_close_norm" x="415" y="707" width="37" height="38"/>
+    <SubTexture name="WIN_btn_close_over" x="933" y="640" width="37" height="38"/>
+    <SubTexture name="WIN_btn_green_norm" x="456" y="576" width="159" height="53"/>
+    <SubTexture name="WIN_btn_green_over" x="878" y="593" rotated="true" width="53" height="159"/>
+    <SubTexture name="WIN_gift_mouseB" x="238" y="576" rotated="true" width="216" height="129"/>
+    <SubTexture name="WIN_gift_mouseW" x="664" y="593" rotated="true" width="212" height="163"/>
+</TextureAtlas>
