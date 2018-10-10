@@ -1,14 +1,12 @@
 package gui.windows {
 import gui.assets.FriendInviteAssets;
-import gui.assets.FriendInviteAssets;
 import gui.elements.checkboxes.Checkbox;
 import gui.elements.covers.CoverBase;
+import gui.elements.panels.FriendPanel;
 import gui.elements.tabs.FriendInviteTab;
-
 import starling.display.Image;
 import starling.events.Event;
 import gui.assets.AssetManager;
-import gui.assets.FriendInviteAssets;
 import gui.windows.base.WindowBase;
 import gui.elements.buttons.CloseButton;
 import gui.elements.buttons.GreenButton;
@@ -19,6 +17,7 @@ public class FriendInviteWindow extends WindowBase{
     private var _closeBtn:CloseButton;
     private var _cover:CoverBase;
     private var _friendInviteTab:FriendInviteTab;
+    private var _friendPanel:FriendPanel;
 
 
 
@@ -47,9 +46,13 @@ public class FriendInviteWindow extends WindowBase{
         _friendInviteTab.y = 185;
         _cover.addChild(_friendInviteTab);
         _cover.addChild(mouseB);
-        _friendInviteTab.getTab(0).addChild(new Checkbox(100,100));
+        _friendPanel = new FriendPanel(new Vector.<Object>(25));
+        _friendPanel.x = 60;
+        _friendPanel.y = 60;
+        _friendInviteTab.getTab(0).addChild(_friendPanel);
         _friendInviteTab.getTab(1).addChild(new Checkbox(200,100));
         _friendInviteTab.getTab(1).addChild(new Checkbox(300,100));
+
     }
 
     private function onSendToAllBtnClick(event:Event) {

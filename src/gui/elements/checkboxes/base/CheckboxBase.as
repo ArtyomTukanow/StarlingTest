@@ -1,4 +1,4 @@
-package gui.elements.checkboxes {
+package gui.elements.checkboxes.base {
 import gui.assets.AssetManager;
 import gui.assets.StandardAssets;
 import starling.display.Button;
@@ -11,6 +11,7 @@ public class CheckboxBase extends Button {
         return _checked;
     }
     public function set checked(value:Boolean){
+        if(_checked == value) return;
         _checked = value;
         update();
     }

@@ -1,6 +1,8 @@
 package gui.elements.checkboxes {
 import gui.assets.AssetManager;
 import gui.assets.StandardAssets;
+import gui.elements.checkboxes.base.CheckboxBase;
+
 import starling.display.Image;
 
 public class Checkbox extends CheckboxBase{
