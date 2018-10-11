@@ -3,6 +3,7 @@ import gui.assets.AssetManager;
 import gui.assets.StandardAssets;
 import gui.elements.checkboxes.base.CheckboxBase;
 import starling.events.Event;
+import starling.text.TextFormat;
 import starling.textures.Texture;
 
 public class PurpleTabButton extends CheckboxBase {
@@ -20,6 +21,8 @@ public class PurpleTabButton extends CheckboxBase {
         _purpleOverEn = AssetManager.Instance.standardAssets.getAtlasTexture(StandardAssets.ATLAS, StandardAssets.BTN_PURPLE_OVER_EN);
         this.width = _purpleOverDis.width;
         this.height = _purpleOverDis.height;
+        this.textFormat = new TextFormat(StandardAssets.DEFAULT_FONT, 18, 0x553371);
+        this.textBounds.y -= 10;
         update();
     }
 

@@ -1,10 +1,16 @@
 package gui.assets {
 import gui.assets.base.AssetBase;
 
+import starling.text.TextFormat;
+
 public class StandardAssets extends AssetBase {
     protected override function get currentClass():Class {
         return StandardAssets;
     }
+
+    [Embed(source="../../../media/fonts/MyriadPro-Bold.otf",fontFamily="DefaultFont",fontWeight="normal",fontStyle="normal",mimeType="application/x-font",embedAsCFF="false")]
+    public static const DefaultFont:Class;
+    public static const DEFAULT_FONT:String = "DefaultFont";
 
     [Embed(source="../../../media/assets/atlas.png")]
     public static const atlas:Class;

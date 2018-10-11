@@ -13,10 +13,12 @@ public class FriendPanel extends PagePanelBase {
 
     protected override function onAddedToStage(event:Event):void {
         super.onAddedToStage(event);
-        _prefBtn.y = _linesInterval*_lines/2-_prefBtn.height;
-        _nextBtn.y = _linesInterval*_lines/2-_nextBtn.height;
-        _prefBtn.x = -30;
-        _nextBtn.x = _columnsInterval*(_columns+1)/2 + 100;
+        _prefBtn.rotation = -Math.PI/2;
+        _nextBtn.rotation = Math.PI/2;
+        _prefBtn.y = _linesInterval*_lines/2-_prefBtn.height+_prefBtn.height/2;
+        _nextBtn.y = _linesInterval*_lines/2-_nextBtn.height-_nextBtn.height/2;
+        _prefBtn.x = -45;
+        _nextBtn.x = _columnsInterval*(_columns+1)/2 + 120;
         create();
     }
 }

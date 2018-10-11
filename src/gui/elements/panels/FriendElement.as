@@ -1,10 +1,12 @@
 package gui.elements.panels {
 import gui.assets.AssetManager;
 import gui.assets.StandardAssets;
+import gui.assets.StandardAssets;
 import gui.elements.checkboxes.Checkbox;
 import starling.display.Image;
 import starling.events.Event;
 import starling.text.TextField;
+import starling.text.TextFormat;
 
 public class FriendElement extends ElementBase {
 
@@ -24,7 +26,8 @@ public class FriendElement extends ElementBase {
         this.addChild(friendBoard);
         friendFrame = new Image(AssetManager.Instance.standardAssets.getAtlasTexture(StandardAssets.ATLAS, StandardAssets.FRIEND_FRAME));
         this.addChild(friendFrame);
-        friendName = new TextField(friendBoard.width, friendBoard.height, "NAME");
+        friendName = new TextField(friendBoard.width, friendBoard.height, "Друг", new TextFormat(StandardAssets.DEFAULT_FONT, 16, 0x553371));
+        friendName.y -= 5;
         this.addChild(friendName);
         checkbox = new Checkbox(155, 5, onCheck);
         this.addChild(checkbox);

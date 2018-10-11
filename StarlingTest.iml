@@ -8,6 +8,9 @@
             <entry library-name="Starling" library-level="application">
               <dependency linkage="Merged" />
             </entry>
+            <entry library-name="APIConnection" library-level="application">
+              <dependency linkage="Merged" />
+            </entry>
           </entries>
           <sdk name="AIR_SDK" />
         </dependencies>
@@ -32,5 +35,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="Starling" level="project" />
     <orderEntry type="library" exported="" name="Starling" level="application" />
+    <orderEntry type="library" exported="" name="APIConnection" level="application" />
   </component>
 </module>

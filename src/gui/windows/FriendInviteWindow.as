@@ -1,5 +1,4 @@
 package gui.windows {
-import gui.elements.checkboxes.Checkbox;
 import gui.elements.covers.CoverBase;
 import gui.elements.panels.FriendPanel;
 import gui.elements.tabs.FriendInviteTab;
@@ -14,7 +13,8 @@ public class FriendInviteWindow extends WindowBase{
     private var _closeBtn:CloseButton;
     private var _cover:CoverBase;
     private var _friendInviteTab:FriendInviteTab;
-    private var _friendPanel:FriendPanel;
+    private var _allFriendsPanel:FriendPanel;
+    private var _onlineFriendsPanel:FriendPanel;
 
 
 
@@ -23,25 +23,28 @@ public class FriendInviteWindow extends WindowBase{
         _cover = new CoverBase("Выберите друзей");
         this.addChild(_cover);
 
-        _sendToAllBtn = new GreenButton(220, 505, "Отправить всем", onSendToAllBtnClick);
+        _sendToAllBtn = new GreenButton(260, 505, "Отправить", onSendToAllBtnClick);
         _cover.addChild(_sendToAllBtn);
-
-        _closeBtn = new CloseButton(610, 45);
-        _cover.addChild(_closeBtn);
-
-
 
         _friendInviteTab = new FriendInviteTab();
 
         _friendInviteTab.x = 55;
         _friendInviteTab.y = 185;
         _cover.addChild(_friendInviteTab);
-        _friendPanel = new FriendPanel(new Vector.<Object>(25));
-        _friendPanel.x = 60;
-        _friendPanel.y = 60;
-        _friendInviteTab.getTab(0).addChild(_friendPanel);
-        _friendInviteTab.getTab(1).addChild(new Checkbox(200,100));
-        _friendInviteTab.getTab(1).addChild(new Checkbox(300,100));
+
+        _allFriendsPanel = new FriendPanel(new Vector.<Object>(20));
+        _allFriendsPanel.x = 60;
+        _allFriendsPanel.y = 60;
+
+        _onlineFriendsPanel = new FriendPanel(new Vector.<Object>(6));
+        _onlineFriendsPanel.x = 60;
+        _onlineFriendsPanel.y = 60;
+
+        _friendInviteTab.getTab(0).addChild(_allFriendsPanel);
+        _friendInviteTab.getTab(1).addChild(_onlineFriendsPanel);
+
+        _closeBtn = new CloseButton(610, 45);
+        _cover.addChild(_closeBtn);
 
     }
 

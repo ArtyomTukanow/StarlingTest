@@ -24,17 +24,17 @@ public class FriendInviteTab extends Sprite{
 
         var mouseW:Image = new Image(AssetManager.Instance.friendInviteAssets.getAtlasTexture(FriendInviteAssets.ATLAS, FriendInviteAssets.WIN_GIFT_MOUSE_W));
         var mouseB:Image = new Image(AssetManager.Instance.friendInviteAssets.getAtlasTexture(FriendInviteAssets.ATLAS, FriendInviteAssets.WIN_GIFT_MOUSE_B));
-        mouseB.x = -20-55;
-        mouseB.y = 345-185;
-        mouseW.x = 465-55;
-        mouseW.y = -15-185;
+        mouseB.x = -75;
+        mouseB.y = 160;
+        mouseW.x = 410;
+        mouseW.y = -200;
 
         this.addChild(mouseW);
 
-        _tabButtons[0] = new PurpleTabButton(20, -35, "Все друзья", onTabButtonChecked);
+        _tabButtons[0] = new PurpleTabButton(20, -35, "Друзья онлайн", onTabButtonChecked);
         this.addChild(_tabButtons[0]);
 
-        _tabButtons[1] = new PurpleTabButton(230, -35, "Друзья в приложении", onTabButtonChecked);
+        _tabButtons[1] = new PurpleTabButton(230, -35, "Остальные друзья", onTabButtonChecked);
         this.addChild(_tabButtons[1]);
 
         _background = new Image(AssetManager.Instance.standardAssets.getAtlasTexture(StandardAssets.ATLAS, StandardAssets.BG_BIG_PURPLE_BOARD_GIFT));
