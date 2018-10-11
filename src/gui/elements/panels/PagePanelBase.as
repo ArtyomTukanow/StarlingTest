@@ -1,6 +1,8 @@
 package gui.elements.panels {
 import gui.assets.AssetManager;
 import gui.assets.StandardAssets;
+import gui.elements.panels.pannelsElements.ElementBase;
+
 import starling.display.Button;
 import starling.display.Sprite;
 import starling.events.Event;
@@ -9,7 +11,7 @@ public class PagePanelBase extends Sprite {
 
     protected function get elementType():Class {return ElementBase;}
     protected var _elementsSprite:Vector.<ElementBase>;
-    protected var _data:Vector.<Object>;
+    protected var _data:Array;
     protected var _nextBtn:Button;
     protected var _prefBtn:Button;
 
@@ -23,7 +25,7 @@ public class PagePanelBase extends Sprite {
         return _columns * _lines;
     }
 
-    public function PagePanelBase(data:Vector.<Object>, lines:int, columns:int) {
+    public function PagePanelBase(data:Array, lines:int, columns:int) {
         _data = data;
         _lines = lines;
         _columns = columns;

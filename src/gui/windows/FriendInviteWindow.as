@@ -1,4 +1,6 @@
 package gui.windows {
+import engine.Managers.FriendInviteManager;
+import gui.assets.AssetManager;
 import gui.elements.covers.CoverBase;
 import gui.elements.panels.FriendPanel;
 import gui.elements.tabs.FriendInviteTab;
@@ -13,7 +15,7 @@ public class FriendInviteWindow extends WindowBase{
     private var _closeBtn:CloseButton;
     private var _cover:CoverBase;
     private var _friendInviteTab:FriendInviteTab;
-    private var _allFriendsPanel:FriendPanel;
+    private var _offlineFriendsPanel:FriendPanel;
     private var _onlineFriendsPanel:FriendPanel;
 
 
@@ -32,15 +34,15 @@ public class FriendInviteWindow extends WindowBase{
         _friendInviteTab.y = 185;
         _cover.addChild(_friendInviteTab);
 
-        _allFriendsPanel = new FriendPanel(new Vector.<Object>(20));
-        _allFriendsPanel.x = 60;
-        _allFriendsPanel.y = 60;
+        _offlineFriendsPanel = new FriendPanel(FriendInviteManager.Instance.getOfflineFriendsData());
+        _offlineFriendsPanel.x = 60;
+        _offlineFriendsPanel.y = 60;
 
-        _onlineFriendsPanel = new FriendPanel(new Vector.<Object>(6));
+        _onlineFriendsPanel = new FriendPanel(FriendInviteManager.Instance.getOnlineFriendsData());
         _onlineFriendsPanel.x = 60;
         _onlineFriendsPanel.y = 60;
 
-        _friendInviteTab.getTab(0).addChild(_allFriendsPanel);
+        _friendInviteTab.getTab(0).addChild(_offlineFriendsPanel);
         _friendInviteTab.getTab(1).addChild(_onlineFriendsPanel);
 
         _closeBtn = new CloseButton(610, 45);

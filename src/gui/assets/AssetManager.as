@@ -5,12 +5,12 @@ public class AssetManager {
     public static function get Instance():AssetManager {return _instance;}
 
     public function AssetManager() {
-        if(_instance != null)
+        if(_instance)
             throw new Error("Instance already created");
     }
 
-    public var friendInviteAssets:FriendInviteAssets = new FriendInviteAssets();
-    public var standardAssets:StandardAssets = new StandardAssets();
+    public function get friendInviteAssets():FriendInviteAssets { return FriendInviteAssets.Instance; }
+    public function get standardAssets():StandardAssets {return StandardAssets.Instance; }
     //other assets here..
 }
 }

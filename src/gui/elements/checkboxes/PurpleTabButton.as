@@ -1,4 +1,6 @@
 package gui.elements.checkboxes {
+import flash.geom.Rectangle;
+
 import gui.assets.AssetManager;
 import gui.assets.StandardAssets;
 import gui.elements.checkboxes.base.CheckboxBase;
@@ -22,7 +24,7 @@ public class PurpleTabButton extends CheckboxBase {
         this.width = _purpleOverDis.width;
         this.height = _purpleOverDis.height;
         this.textFormat = new TextFormat(StandardAssets.DEFAULT_FONT, 18, 0x553371);
-        this.textBounds.y -= 10;
+        this.textBounds = new Rectangle(0, -5, this.width, this.height);//особенность шрифта
         update();
     }
 

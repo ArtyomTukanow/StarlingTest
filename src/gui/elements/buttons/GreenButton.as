@@ -1,4 +1,6 @@
 package gui.elements.buttons {
+import flash.geom.Rectangle;
+
 import starling.display.Button;
 import starling.events.Event;
 import gui.assets.AssetManager;
@@ -15,9 +17,10 @@ public class GreenButton extends Button{
                 AssetManager.Instance.standardAssets.getAtlasTexture(StandardAssets.ATLAS, StandardAssets.WIN_BTN_GREEN_OVER));
         this.x = x;
         this.y = y;
-        this.textFormat = new TextFormat(StandardAssets.DEFAULT_FONT, 22, 0xFFFFFF);
-//        this.width = 250;
-//        this.height = 50;
+        this.textFormat = new TextFormat(StandardAssets.GREENFONT, 22, 0xFFFFFF);
+
+        this.textBounds = new Rectangle(0, -5, this.width, this.height);//особенность шрифта
+
         if(onMouseDown != null)
             this.addEventListener(Event.TRIGGERED, onMouseDown)
     }

@@ -1,11 +1,13 @@
 package gui.elements.panels {
+import gui.elements.panels.pannelsElements.FriendElement;
+
 import starling.events.Event;
 
 public class FriendPanel extends PagePanelBase {
 
     protected override function get elementType():Class { return FriendElement; }
 
-    public function FriendPanel(data:Vector.<Object>) {
+    public function FriendPanel(data:Array) {
         super(data,4,2);
         _columnsInterval = 250;
         _linesInterval = 65;

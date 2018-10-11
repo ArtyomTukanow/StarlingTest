@@ -12,6 +12,7 @@ public class AssetBase {
     }
 
     private static var _gameTextures:Dictionary = new Dictionary();
+    private static var _netTextures:Dictionary = new Dictionary();
     private static var _gameTextureAtlases:Dictionary = new Dictionary();
 
     public function getTexture(name:String):Texture {
@@ -33,6 +34,16 @@ public class AssetBase {
             _gameTextureAtlases[atlasName] = new TextureAtlas(texture, xml);
         }
         return _gameTextureAtlases[atlasName];
+    }
+
+    public function addNetTexture(url:String, texture:Texture):void {
+        _netTextures[url] = texture;
+    }
+
+    public function getNetTexture(url:String):Texture {
+        if(_netTextures[url] == undefined)
+                return null;
+        return _netTextures[url];
     }
 }
 }
