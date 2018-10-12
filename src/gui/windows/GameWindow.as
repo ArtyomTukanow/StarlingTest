@@ -4,9 +4,12 @@ import gui.windows.base.WindowBase;
 
 public class GameWindow extends WindowBase {
 
+    public static var friendInviteWindow:FriendInviteWindow;
+
     protected override function buildWindow():void {
         AssetManager.Instance.standardAssets.load();
-        this.addChild(new FriendInviteWindow());
+        friendInviteWindow = new FriendInviteWindow();
+        this.addChild(friendInviteWindow);
     }
 }
 }

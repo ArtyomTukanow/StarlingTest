@@ -1,4 +1,4 @@
-package engine.Utils {
+package engine.Net {
 import flash.display.Bitmap;
 import flash.display.Loader;
 import flash.events.Event;

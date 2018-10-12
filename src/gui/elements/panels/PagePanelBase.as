@@ -2,7 +2,6 @@ package gui.elements.panels {
 import gui.assets.AssetManager;
 import gui.assets.StandardAssets;
 import gui.elements.panels.pannelsElements.ElementBase;
-
 import starling.display.Button;
 import starling.display.Sprite;
 import starling.events.Event;
@@ -57,6 +56,7 @@ public class PagePanelBase extends Sprite {
         _prefBtn.addEventListener(Event.TRIGGERED, onPrefBtnClick);
     }
 
+
     private function onNextBtnClick(event:Event):void {
         nextPage();
     }
@@ -99,7 +99,7 @@ public class PagePanelBase extends Sprite {
         update();
     }
 
-    protected function update():void {
+    public function update():void {
         var currId:int = currentPage*countElementsOnPage;
         var currIdInPage:int = 0;
         for (var i:int = 0; i < _columns; i ++) {

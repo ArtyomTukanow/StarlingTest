@@ -1,6 +1,5 @@
 package gui.windows {
 import engine.Managers.FriendInviteManager;
-import gui.assets.AssetManager;
 import gui.elements.covers.CoverBase;
 import gui.elements.panels.FriendPanel;
 import gui.elements.tabs.FriendInviteTab;
@@ -8,6 +7,7 @@ import starling.events.Event;
 import gui.windows.base.WindowBase;
 import gui.elements.buttons.CloseButton;
 import gui.elements.buttons.GreenButton;
+import starling.text.TextField;
 
 public class FriendInviteWindow extends WindowBase{
 
@@ -17,6 +17,7 @@ public class FriendInviteWindow extends WindowBase{
     private var _friendInviteTab:FriendInviteTab;
     private var _offlineFriendsPanel:FriendPanel;
     private var _onlineFriendsPanel:FriendPanel;
+    private var _traceText:TextField;
 
 
 
@@ -34,24 +35,37 @@ public class FriendInviteWindow extends WindowBase{
         _friendInviteTab.y = 185;
         _cover.addChild(_friendInviteTab);
 
-        _offlineFriendsPanel = new FriendPanel(FriendInviteManager.Instance.getOfflineFriendsData());
+        _offlineFriendsPanel = new FriendPanel(FriendInviteManager.Instance.offlineFriendsData);
         _offlineFriendsPanel.x = 60;
         _offlineFriendsPanel.y = 60;
 
-        _onlineFriendsPanel = new FriendPanel(FriendInviteManager.Instance.getOnlineFriendsData());
+        _onlineFriendsPanel = new FriendPanel(FriendInviteManager.Instance.onlineFriendsData);
         _onlineFriendsPanel.x = 60;
         _onlineFriendsPanel.y = 60;
 
-        _friendInviteTab.getTab(0).addChild(_offlineFriendsPanel);
-        _friendInviteTab.getTab(1).addChild(_onlineFriendsPanel);
+        _friendInviteTab.getTab(0).addChild(_onlineFriendsPanel);
+        _friendInviteTab.getTab(1).addChild(_offlineFriendsPanel);
 
         _closeBtn = new CloseButton(610, 45);
         _cover.addChild(_closeBtn);
 
+        _traceText = new TextField(200,200,"");
+        this.addChild(_traceText);
+
+        FriendInviteManager.Instance.getUsers();
+    }
+
+    public function updateFriendPanels():void {
+        _offlineFriendsPanel.update();
+        _onlineFriendsPanel.update();
     }
 
     private function onSendToAllBtnClick(event:Event) {
         trace("onSendToAllButtonClick");
+    }
+
+    public function trace(message:String):void {
+        _traceText.text += '\n' + message;
     }
 }
 }

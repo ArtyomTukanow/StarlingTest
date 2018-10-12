@@ -36,7 +36,7 @@
   <!-- Settings for the application's initial gui. Required. -->
   <initialWindow>
     <!-- The main SWF or HTML file of the application. Required. -->
-    <content>Main.swf</content>
+    <content>test.swf</content>
     <!-- The title of the main gui. Optional. -->
     <!--<title></title>-->
     <!-- The type of system chrome to use (either "standard" or "none"). Optional. Default standard. -->

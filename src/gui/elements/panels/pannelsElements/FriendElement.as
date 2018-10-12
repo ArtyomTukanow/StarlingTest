@@ -56,13 +56,13 @@ public class FriendElement extends ElementBase {
 
     public override function update():void {
         if (data) {
-            friendName.text = data.name;
+            friendName.text = data.first_name;
             friendAvatar.visible = false;
-            FriendInviteManager.Instance.getAvatarTexture(data, onTextureLoaded);
-            function onTextureLoaded(avatar:Texture):void {
+            FriendInviteManager.Instance.getTexture(data["photo_50"], function (avatar:Texture):void {
                 friendAvatar.texture = avatar;
                 friendAvatar.visible = true;
-            }
+            });
+
             checkbox.checked = data[LOCAL_PARAMS];
         }
     }
