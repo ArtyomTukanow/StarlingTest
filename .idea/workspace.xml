@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fe9ca2c-19dd-4d3d-b016-9af86703d4b6" name="Default Changelist" comment="integreated vk API">
-      <change afterPath="$PROJECT_DIR$/src/engine/Net/VKConnector.as" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/elements/panels/panelsElements/OfflineFriendElement.as" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StarlingTest/Main-descriptor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StarlingTest/Main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StarlingTest/Main.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarlingTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StarlingTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarlingTest/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StarlingTest/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarlingTest/test.swf" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StarlingTest/test.swf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/engine/Managers/FriendInviteManager.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/Managers/FriendInviteManager.as" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/engine/Utils/NetLoader.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/Net/NetLoader.as" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine/Net/NetLoader.as" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine/Net/VKConnector.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/Net/VKConnector.as" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/assets/base/AssetBase.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/assets/base/AssetBase.as" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/elements/buttons/GreenButton.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/elements/buttons/GreenButton.as" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/elements/checkboxes/Checkbox.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/elements/checkboxes/Checkbox.as" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/elements/checkboxes/PurpleTabButton.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/elements/checkboxes/PurpleTabButton.as" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/elements/checkboxes/base/CheckboxBase.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/elements/checkboxes/base/CheckboxBase.as" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/elements/panels/FriendPanel.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/elements/panels/FriendPanel.as" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/elements/panels/PagePanelBase.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/elements/panels/PagePanelBase.as" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/elements/panels/pannelsElements/FriendElement.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/elements/panels/pannelsElements/FriendElement.as" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/elements/panels/pannelsElements/ElementBase.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/elements/panels/panelsElements/ElementBase.as" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/elements/panels/pannelsElements/FriendElement.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/elements/panels/panelsElements/OnlineFriendElement.as" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/elements/tabs/FriendInviteTab.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/elements/tabs/FriendInviteTab.as" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/windows/FriendInviteWindow.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/windows/FriendInviteWindow.as" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/windows/GameWindow.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/windows/GameWindow.as" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,63 +33,66 @@
     <session id="2013268479">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.16" value="7" />
           <entry key="project.open.time.17" value="9" />
-          <entry key="project.open.time.18" value="8" />
-          <entry key="project.open.time.19" value="14" />
-          <entry key="project.open.time.20" value="8" />
-          <entry key="project.open.time.21" value="9" />
-          <entry key="project.open.time.22" value="5" />
-          <entry key="project.open.time.23" value="4" />
-          <entry key="project.open.time.24" value="3" />
-          <entry key="project.open.time.25" value="4" />
+          <entry key="project.open.time.18" value="10" />
+          <entry key="project.open.time.19" value="15" />
+          <entry key="project.open.time.20" value="9" />
+          <entry key="project.open.time.21" value="10" />
+          <entry key="project.open.time.22" value="7" />
+          <entry key="project.open.time.23" value="8" />
+          <entry key="project.open.time.24" value="4" />
+          <entry key="project.open.time.25" value="5" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.27" value="2" />
           <entry key="project.open.time.28" value="3" />
-          <entry key="project.open.time.29" value="2" />
+          <entry key="project.open.time.29" value="5" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.54" value="1" />
+          <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="89" />
+          <entry key="project.opened" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="as" value="268" />
+          <entry key="as" value="352" />
           <entry key="fnt" value="6" />
-          <entry key="html" value="3" />
+          <entry key="html" value="4" />
           <entry key="iml" value="3" />
           <entry key="js" value="1" />
           <entry key="js2" value="1" />
           <entry key="png" value="8" />
-          <entry key="swf" value="2" />
+          <entry key="swf" value="5" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ActionScript" value="269" />
-          <entry key="HTML" value="3" />
+          <entry key="ActionScript" value="353" />
+          <entry key="HTML" value="4" />
           <entry key="IDEA_MODULE" value="3" />
           <entry key="Image" value="8" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="SWF" value="2" />
+          <entry key="SWF" value="5" />
           <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="as" value="13567" />
+          <entry key="as" value="15317" />
+          <entry key="dummy" value="1" />
           <entry key="fnt" value="46" />
-          <entry key="html" value="521" />
+          <entry key="html" value="778" />
           <entry key="iml" value="1" />
           <entry key="js" value="17" />
           <entry key="js2" value="11" />
@@ -91,11 +102,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ActionScript" value="13578" />
-          <entry key="HTML" value="521" />
+          <entry key="ActionScript" value="15328" />
+          <entry key="HTML" value="778" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JavaScript" value="17" />
-          <entry key="PLAIN_TEXT" value="173" />
+          <entry key="PLAIN_TEXT" value="174" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -103,11 +114,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/panelsElements/OnlineFriendElement.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/engine/Net/VKConnector.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="17">
+              <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
               <folding>
                 <element signature="e#21#57#0" expanded="true" />
               </folding>
@@ -116,36 +136,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/windows/GameWindow.as">
+        <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/PagePanelBase.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="526">
+              <caret line="119" selection-start-line="119" selection-end-line="119" />
               <folding>
-                <element signature="e#22#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/engine/Managers/FriendInviteManager.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-              <folding>
-                <element signature="e#26#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/gui/windows/FriendInviteWindow.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="58" column="38" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-              <folding>
-                <element signature="e#22#65#0" expanded="true" />
+                <element signature="e#30#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,14 +152,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="ActionScript Class" />
         <option value="JavaScript File" />
+        <option value="ActionScript Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>_subTextures[name] =</find>
       <find>addSubTexture</find>
       <find>addRegion</find>
       <find>_upState</find>
@@ -193,6 +188,7 @@
       <find>successfulRequest</find>
       <find>traceMessage</find>
       <find>update</find>
+      <find>_friendAvatar</find>
     </findStrings>
     <replaceStrings>
       <replace>loacalTrace</replace>
@@ -205,13 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/window/model/elements/buttons/GreenLongButton.as" />
-        <option value="$PROJECT_DIR$/src/window/model/elements/kilme.as" />
-        <option value="$PROJECT_DIR$/src/window/assets/elements/buttons/GreenLongButton.as" />
-        <option value="$PROJECT_DIR$/src/gui/assets/elements/buttons/GreenLongButton.as" />
-        <option value="$PROJECT_DIR$/src/gui/elements/buttons/GreenLongButton.as" />
-        <option value="$PROJECT_DIR$/src/gui/windows/base/SpriteBase.as" />
-        <option value="$PROJECT_DIR$/src/gui/elements/buttons/killme.as" />
         <option value="$PROJECT_DIR$/src/gui/elements/killme.as" />
         <option value="$PROJECT_DIR$/src/gui/windows/base/WindowBase.as" />
         <option value="$PROJECT_DIR$/src/gui/elements/checkboxes/checkbox.as" />
@@ -221,17 +210,12 @@
         <option value="$PROJECT_DIR$/src/gui/elements/panels/ElementPanelBase.as" />
         <option value="$PROJECT_DIR$/src/gui/elements/panels/ElementFriendBase.as" />
         <option value="$PROJECT_DIR$/src/gui/elements/panels/ElementBase.as" />
-        <option value="$PROJECT_DIR$/src/gui/elements/checkboxes/Checkbox.as" />
-        <option value="$PROJECT_DIR$/src/gui/elements/checkboxes/base/CheckboxBase.as" />
-        <option value="$PROJECT_DIR$/src/gui/elements/tabs/FriendInviteTab.as" />
         <option value="$USER_HOME$/work/APIConnection/src/vk/api/DataProvider.as" />
         <option value="$PROJECT_DIR$/src/net/TestApp.as" />
         <option value="$PROJECT_DIR$/src/net/vkManager.as" />
         <option value="$USER_HOME$/work/APIConnection/src/TestApp.as" />
         <option value="$PROJECT_DIR$/src/engine/FriendInviteManager.as" />
         <option value="$PROJECT_DIR$/src/engine/Utils/NetDownloader.as" />
-        <option value="$PROJECT_DIR$/src/gui/elements/panels/FriendPanel.as" />
-        <option value="$PROJECT_DIR$/src/gui/assets/base/AssetBase.as" />
         <option value="$PROJECT_DIR$/src/gui/assets/FriendInviteAssets.as" />
         <option value="$PROJECT_DIR$/src/gui/assets/AssetManager.as" />
         <option value="$PROJECT_DIR$/media/fonts/green_font_22.fnt" />
@@ -240,8 +224,6 @@
         <option value="$PROJECT_DIR$/src/gui/assets/StandardAssets.as" />
         <option value="$PROJECT_DIR$/media/fonts/green_font.fnt" />
         <option value="$PROJECT_DIR$/src/gui/elements/covers/CoverBase.as" />
-        <option value="$PROJECT_DIR$/src/gui/elements/checkboxes/PurpleTabButton.as" />
-        <option value="$PROJECT_DIR$/src/gui/elements/buttons/GreenButton.as" />
         <option value="$PROJECT_DIR$/src/gui/elements/panels/FriendElement.as" />
         <option value="$PROJECT_DIR$/src/engine/Utils/NetLoader.as" />
         <option value="$PROJECT_DIR$/src/engine/Net/TestApp.as" />
@@ -249,12 +231,26 @@
         <option value="$PROJECT_DIR$/out/production/StarlingTest/test.js" />
         <option value="$PROJECT_DIR$/src/engine/Net/JavascriptAdaptor.as" />
         <option value="$PROJECT_DIR$/src/engine/Utils/AsyncQueue.as" />
-        <option value="$PROJECT_DIR$/src/gui/elements/panels/PagePanelBase.as" />
+        <option value="$PROJECT_DIR$/src/gui/elements/panels/pannelsElements/OfflineFriendElement.as" />
+        <option value="$PROJECT_DIR$/src/gui/elements/panels/OnlineFriendPanel.as" />
+        <option value="$PROJECT_DIR$/src/gui/elements/panels/FriendPanel.as" />
         <option value="$PROJECT_DIR$/src/gui/elements/panels/pannelsElements/FriendElement.as" />
-        <option value="$PROJECT_DIR$/src/engine/Managers/FriendInviteManager.as" />
-        <option value="$PROJECT_DIR$/src/gui/windows/GameWindow.as" />
-        <option value="$PROJECT_DIR$/src/gui/windows/FriendInviteWindow.as" />
+        <option value="$PROJECT_DIR$/src/gui/elements/panels/pannelsElements/OnlineFriendElement.as" />
         <option value="$PROJECT_DIR$/out/production/StarlingTest/test.html" />
+        <option value="$PROJECT_DIR$/src/engine/Net/NetLoader.as" />
+        <option value="$PROJECT_DIR$/src/gui/elements/buttons/GreenButton.as" />
+        <option value="$PROJECT_DIR$/src/gui/windows/FriendInviteWindow.as" />
+        <option value="$PROJECT_DIR$/src/engine/Managers/FriendInviteManager.as" />
+        <option value="$PROJECT_DIR$/src/gui/assets/base/AssetBase.as" />
+        <option value="$PROJECT_DIR$/src/gui/elements/panels/panelsElements/ElementBase.as" />
+        <option value="$PROJECT_DIR$/src/gui/windows/GameWindow.as" />
+        <option value="$PROJECT_DIR$/src/gui/elements/checkboxes/base/CheckboxBase.as" />
+        <option value="$PROJECT_DIR$/src/gui/elements/checkboxes/Checkbox.as" />
+        <option value="$PROJECT_DIR$/src/gui/elements/checkboxes/PurpleTabButton.as" />
+        <option value="$PROJECT_DIR$/src/gui/elements/tabs/FriendInviteTab.as" />
+        <option value="$PROJECT_DIR$/src/gui/elements/images/GameImage.as" />
+        <option value="$PROJECT_DIR$/src/gui/elements/panels/PagePanelBase.as" />
+        <option value="$PROJECT_DIR$/src/gui/elements/panels/panelsElements/OnlineFriendElement.as" />
         <option value="$PROJECT_DIR$/src/engine/Net/VKConnector.as" />
       </list>
     </option>
@@ -271,9 +267,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="209" />
+    <option name="y" value="-15" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -282,8 +278,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -295,38 +291,35 @@
             <path>
               <item name="StarlingTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="StarlingTest" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StarlingTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StarlingTest" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StarlingTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StarlingTest" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="StarlingTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StarlingTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StarlingTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StarlingTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="StarlingTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StarlingTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="StarlingTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="Net" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarlingTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarlingTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarlingTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarlingTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -335,11 +328,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="htm&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/out/production/StarlingTest/test.html&#10;Fr&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/elements/panels/pannelsElements/FriendElement.as&#10;Fri&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/engine/Managers/FriendInviteManager.as&#10;Friema&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/engine/Managers/FriendInviteManager.as&#10;Wind&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/windows/FriendInviteWindow.as&#10;Loa&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/engine/Utils/NetLoader.as&#10;Ass&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/assets/AssetManager.as&#10;фыы&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/assets/StandardAssets.as&#10;El&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/elements/panels/ElementBase.as&#10;panel&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/elements/panels/PagePanelBase.as&#10;FriendElement&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/elements/panels/FriendElement.as&#10;Close&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/elements/buttons/CloseButton.as&#10;Frie&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/window/model/FriendInviteWindow.as&#10;S&#9;FILE&#9;file://C:/Users/User/work/starling-2.4/starling/src/starling/core/Starling.as&#10;star&#9;FILE&#9;file://C:/Users/User/work/starling-2.4/starling/src/starling/core/Starling.as" />
+    <property name="SearchEverywhereHistoryKey" value="vk&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/engine/Net/VKConnector.as&#10;pane&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/elements/panels/FriendPanel.as&#10;eleme&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/elements/panels/panelsElements/OnlineFriendElement.as&#10;offl&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/elements/panels/panelsElements/OfflineFriendElement.as&#10;net&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/engine/Net/NetLoader.as&#10;htm&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/out/production/StarlingTest/test.html&#10;Frie&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/engine/Managers/FriendInviteManager.as&#10;Wind&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/windows/FriendInviteWindow.as&#10;ьфтф&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/engine/Managers/FriendInviteManager.as&#10;Gam&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/windows/GameWindow.as&#10;Frieele&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/elements/panels/pannelsElements/FriendElement.as&#10;Fri&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/elements/panels/pannelsElements/FriendElement.as&#10;Fr&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/elements/panels/pannelsElements/FriendElement.as&#10;Friema&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/engine/Managers/FriendInviteManager.as&#10;Loa&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/engine/Utils/NetLoader.as&#10;Ass&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/assets/AssetManager.as&#10;фыы&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/assets/StandardAssets.as&#10;El&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/elements/panels/ElementBase.as&#10;panel&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/elements/panels/PagePanelBase.as&#10;FriendElement&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/elements/panels/FriendElement.as&#10;Close&#9;FILE&#9;file://C:/Users/User/projects/StarlingTest/src/gui/elements/buttons/CloseButton.as&#10;S&#9;FILE&#9;file://C:/Users/User/work/starling-2.4/starling/src/starling/core/Starling.as&#10;star&#9;FILE&#9;file://C:/Users/User/work/starling-2.4/starling/src/starling/core/Starling.as" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539368048116" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539422393137" />
+    <property name="last_opened_file_path" value="$USER_HOME$/work/FeachersSDK/frameworks/libs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -354,11 +347,11 @@
       <recent name="engine" />
     </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="gui.elements.images" />
+      <recent name="gui.elements.panels.pannelsElements" />
       <recent name="gui.windows" />
       <recent name="engine.Utils" />
       <recent name="engine" />
-      <recent name="net" />
-      <recent name="gui.elements.panels" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\projects\StarlingTest\src\engine\Net" />
@@ -559,6 +552,25 @@
       <workItem from="1539363538031" duration="1117000" />
       <workItem from="1539365997665" duration="919000" />
       <workItem from="1539367254857" duration="770000" />
+      <workItem from="1539368478036" duration="895000" />
+      <workItem from="1539369685047" duration="976000" />
+      <workItem from="1539370941933" duration="861000" />
+      <workItem from="1539372161360" duration="1125000" />
+      <workItem from="1539373841071" duration="1014000" />
+      <workItem from="1539375119495" duration="693000" />
+      <workItem from="1539376510978" duration="918000" />
+      <workItem from="1539377727950" duration="639000" />
+      <workItem from="1539378957627" duration="1009000" />
+      <workItem from="1539380161044" duration="863000" />
+      <workItem from="1539381399811" duration="973000" />
+      <workItem from="1539382896031" duration="797000" />
+      <workItem from="1539384005252" duration="917000" />
+      <workItem from="1539385215362" duration="1090000" />
+      <workItem from="1539386455403" duration="834000" />
+      <workItem from="1539421351152" duration="1013000" />
+      <workItem from="1539422567324" duration="263000" />
+      <workItem from="1539425198254" duration="703000" />
+      <workItem from="1539426410698" duration="272000" />
     </task>
     <task id="LOCAL-00001" summary="Добавлены элементы checkbox, tab">
       <created>1539168289932</created>
@@ -578,12 +590,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80727000" />
+    <option name="totallyTimeSpent" value="96582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.2246596" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.30030257" />
       <window_info id="Structure" order="1" sideWeight="0.5008183" side_tool="true" weight="0.27912253" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -625,35 +638,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added PagePanel whith elements" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/ElementFriendBase.as" />
-    <entry file="file://$PROJECT_DIR$/src/gui/elements/checkboxes/Checkbox.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/work/starling-2.4/starling/src/starling/display/DisplayObject.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="1081" selection-start-line="1081" selection-end-line="1081" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/elements/checkboxes/base/CheckboxBase.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/work/starling-2.4/starling/src/starling/text/TextFormat.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="85" column="17" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StarlingTest.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -680,28 +664,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/media/assets/atlas.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/assets/base/AssetBase.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/pannelsElements/ElementBase.as" />
-    <entry file="file://$PROJECT_DIR$/src/gui/assets/FriendInviteAssets.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="51" lean-forward="true" selection-start-line="3" selection-start-column="51" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/elements/buttons/CloseButton.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$USER_HOME$/work/starling-2.4/starling/src/starling/textures/Texture.as">
       <provider selected="true" editor-type-id="text-editor">
@@ -736,55 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/elements/covers/CoverBase.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="22" column="88" lean-forward="true" selection-start-line="22" selection-start-column="88" selection-end-line="22" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/elements/buttons/GreenButton.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/windows/base/WindowBase.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/assets/AssetManager.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/elements/checkboxes/PurpleTabButton.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/assets/StandardAssets.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/Net/NetLoader.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/work/APIConnection/src/vk/APIConnection.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -793,13 +706,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/engine/Net/TestApp.as" />
-    <entry file="file://$PROJECT_DIR$/src/Main.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/work/AIR_SDK/frameworks/libs/air/airglobal.swc!/library.swf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -827,23 +733,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/StarlingTest/test — копия.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/StarlingTest/test — копия.html" />
     <entry file="file://$PROJECT_DIR$/../AIRDesktop/ConfigDeveloper/src/engine/utils/AsyncQueue.as">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/Utils/AsyncQueue.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/engine/Utils/AsyncQueue.as" />
     <entry file="file://$USER_HOME$/work/starling-2.4/starling/src/starling/display/DisplayObjectContainer.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -851,78 +745,185 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/FriendPanel.as">
+    <entry file="file://$PROJECT_DIR$/out/production/StarlingTest/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state relative-caret-position="527">
+          <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/PagePanelBase.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/elements/tabs/FriendInviteTab.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/pannelsElements/FriendElement.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="63" column="15" lean-forward="true" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/engine/Net/NetLoader.as" />
     <entry file="file://$PROJECT_DIR$/src/engine/Managers/FriendInviteManager.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-          <folding>
-            <element signature="e#26#56#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/assets/FriendInviteAssets.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="51" lean-forward="true" selection-start-line="3" selection-start-column="51" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/elements/buttons/CloseButton.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/elements/buttons/GreenButton.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/elements/covers/CoverBase.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/windows/base/WindowBase.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/windows/GameWindow.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/windows/FriendInviteWindow.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/elements/checkboxes/PurpleTabButton.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/elements/checkboxes/base/CheckboxBase.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/elements/checkboxes/Checkbox.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/panelsElements/OfflineFriendElement.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
           <folding>
-            <element signature="e#22#53#0" expanded="true" />
+            <element signature="e#45#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/elements/tabs/FriendInviteTab.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/work/FeachersSDK/frameworks/libs/feathers.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12677" column="54" lean-forward="true" selection-start-line="12677" selection-start-column="2" selection-end-line="12677" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/assets/base/AssetBase.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="55" lean-forward="true" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/assets/StandardAssets.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/assets/AssetManager.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/elements/images/GameImage.as" />
+    <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/panelsElements/ElementBase.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/PagePanelBase.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+          <folding>
+            <element signature="e#30#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/engine/Net/VKConnector.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="17">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
           <folding>
             <element signature="e#21#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/StarlingTest/test.html">
+    <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/FriendPanel.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <element signature="e#30#93#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/windows/FriendInviteWindow.as">
+    <entry file="file://$PROJECT_DIR$/src/gui/elements/panels/panelsElements/OnlineFriendElement.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="58" column="38" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-          <folding>
-            <element signature="e#22#65#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="415">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
@@ -955,7 +956,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>APIConnection</last-edited>
+          <last-edited>Feathers</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

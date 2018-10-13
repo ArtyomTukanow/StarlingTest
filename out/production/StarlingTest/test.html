@@ -24,10 +24,34 @@
             }, '5.85');
         }
 
+        function showRequestBox(userId, message, requestKey, onRequestSuccessCallbackId, onRequestCancelCallbackId) {
+            VK.addCallback('onRequestSuccess', function f(location){
+                document['test'].successfulRequest(onRequestSuccessCallbackId, null);
+            });
+            VK.addCallback('onRequestCancel', function f(location){
+                document['test'].successfulRequest(onRequestCancelCallbackId, null);
+            });
+            VK.callMethod("showRequestBox", userId, message, requestKey);
+        }
+
+        function showInviteBox(callbackId) {
+            VK.addCallback('onRequestSuccess', function f(location){
+                document['test'].successfulRequest(onRequestSuccessCallbackId, null);
+            });
+            VK.addCallback('onRequestCancel', function f(location){
+                document['test'].successfulRequest(onRequestCancelCallbackId, null);
+            });
+            VK.callMethod("showRequestBox", userId, message, requestKey);
+        }
+
         function vkApi(methodName, params, callbackId) {
             VK.api(methodName, params, function(data) {
                 document['test'].successfulRequest(callbackId, data);
             });
+        }
+
+        function Alert(message) {
+            alert(message);
         }
     </script>
 </body>

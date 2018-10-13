@@ -1,7 +1,5 @@
 package engine.Managers {
 import engine.Net.VKConnector;
-import engine.Net.NetLoader;
-import gui.windows.GameWindow;
 
 public class FriendInviteManager {
 
@@ -26,12 +24,7 @@ public class FriendInviteManager {
         return _offlineFriendsData;
     }
 
-
-    public function getTexture(url:String, onTextureLoaded:Function):void {
-        NetLoader.loadTextureFromURL(url, onTextureLoaded);
-    }
-
-    public function getUsers():void {
+    public function getUsers(onUsersDataUpdated:Function):void {
         VKConnector.Instance.getFriends(function (data:Object):void {
             while(_onlineFriendsData.length > 0) _onlineFriendsData.removeAt(0);
             while(_offlineFriendsData.length > 0) _offlineFriendsData.removeAt(0);
@@ -42,7 +35,20 @@ public class FriendInviteManager {
                     _offlineFriendsData.push(friend);
                 }
             }
-            GameWindow.friendInviteWindow.updateFriendPanels();
+            onUsersDataUpdated();
+        });
+    }
+
+    public function sendRequest(userData:Object, onComplete:Function, onError:Function):void {
+        VKConnector.Instance.showRequestBox(userData.id, onComplete, onError);
+    }
+
+    public function postOnTheWall(userData:Object, onComplete:Function, onError:Function):void {
+        VKConnector.Instance.postOnTheWall(userData.id, function (data:Object) {
+            if(data.error)
+                onError(data.error);
+            else
+                onComplete();
         });
     }
 }

@@ -1,11 +1,10 @@
-package gui.elements.panels.pannelsElements {
+package gui.elements.panels.panelsElements {
 import gui.elements.panels.*;
-
 import starling.display.Sprite;
 import starling.events.Event;
 
 public class ElementBase extends Sprite {
-    private var _data:Object;
+    protected var _data:Object;
     protected var _parent:PagePanelBase;
 
     public function get data():Object {

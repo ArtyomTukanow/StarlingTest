@@ -1,10 +1,8 @@
 package gui.elements.checkboxes {
 import flash.geom.Rectangle;
-
 import gui.assets.AssetManager;
 import gui.assets.StandardAssets;
 import gui.elements.checkboxes.base.CheckboxBase;
-import starling.events.Event;
 import starling.text.TextFormat;
 import starling.textures.Texture;
 
@@ -15,8 +13,8 @@ public class PurpleTabButton extends CheckboxBase {
     private var _purpleOverDis:Texture;
     private var _purpleOverEn:Texture;
 
-    public function PurpleTabButton(x:int, y:int, text:String = "", onMouseDown:Function = null) {
-        super (x, y, text, onMouseDown);
+    public function PurpleTabButton(x:int, y:int, text:String = "", onMouseDown:Function = null, uncheckable:Boolean = true) {
+        super (x, y, text, onMouseDown, uncheckable);
         _purpleNormDis = AssetManager.Instance.standardAssets.getAtlasTexture(StandardAssets.ATLAS, StandardAssets.BTN_PURPLE_NORM_DIS);
         _purpleNormEn = AssetManager.Instance.standardAssets.getAtlasTexture(StandardAssets.ATLAS, StandardAssets.BTN_PURPLE_NORM_EN);
         _purpleOverDis = AssetManager.Instance.standardAssets.getAtlasTexture(StandardAssets.ATLAS, StandardAssets.BTN_PURPLE_OVER_DIS);
@@ -26,12 +24,6 @@ public class PurpleTabButton extends CheckboxBase {
         this.textFormat = new TextFormat(StandardAssets.DEFAULT_FONT, 18, 0x553371);
         this.textBounds = new Rectangle(0, -5, this.width, this.height);//особенность шрифта
         update();
-    }
-
-    protected override function onCheck(event:Event):void {
-        if(!_checked) {
-            super.onCheck(event);
-        }
     }
 
     public override function update():void {

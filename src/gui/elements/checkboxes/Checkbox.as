@@ -8,8 +8,8 @@ public class Checkbox extends CheckboxBase{
 
     protected var _checkImage:Image;
 
-    public function Checkbox(x:int, y:int, onMouseDown:Function = null) {
-        super(x,y, "", onMouseDown);
+    public function Checkbox(x:int, y:int, onMouseDown:Function = null, uncheckable:Boolean = true) {
+        super(x,y, "", onMouseDown, uncheckable);
             _checkImage = new Image(AssetManager.Instance.standardAssets.getAtlasTexture(StandardAssets.ATLAS, StandardAssets.CHECK));
             _checkImage.x = this.width / 2 - _checkImage.width / 2;
             _checkImage.y = this.height / 2 - _checkImage.height / 2;

@@ -31,10 +31,10 @@ public class FriendInviteTab extends Sprite{
 
         this.addChild(mouseW);
 
-        _tabButtons[0] = new PurpleTabButton(20, -35, "Друзья онлайн", onTabButtonChecked);
+        _tabButtons[0] = new PurpleTabButton(20, -35, "Друзья online", onTabButtonChecked, false);
         this.addChild(_tabButtons[0]);
 
-        _tabButtons[1] = new PurpleTabButton(230, -35, "Остальные друзья", onTabButtonChecked);
+        _tabButtons[1] = new PurpleTabButton(230, -35, "Друзья offline", onTabButtonChecked, false);
         this.addChild(_tabButtons[1]);
 
         _background = new Image(AssetManager.Instance.standardAssets.getAtlasTexture(StandardAssets.ATLAS, StandardAssets.BG_BIG_PURPLE_BOARD_GIFT));

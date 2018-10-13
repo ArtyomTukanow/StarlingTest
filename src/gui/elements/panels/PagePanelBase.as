@@ -1,7 +1,7 @@
 package gui.elements.panels {
 import gui.assets.AssetManager;
 import gui.assets.StandardAssets;
-import gui.elements.panels.pannelsElements.ElementBase;
+import gui.elements.panels.panelsElements.ElementBase;
 import starling.display.Button;
 import starling.display.Sprite;
 import starling.events.Event;
@@ -105,8 +105,8 @@ public class PagePanelBase extends Sprite {
         for (var i:int = 0; i < _columns; i ++) {
             for (var j:int = 0; j < _lines; j ++) {
                 if(currId < _data.length) {
-                    _elementsSprite[currIdInPage].data = _data[currId];
                     _elementsSprite[currIdInPage].visible = true;
+                    _elementsSprite[currIdInPage].data = _data[currId];
                 } else {
                     _elementsSprite[currIdInPage].visible = false;
                 }

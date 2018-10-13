@@ -1,13 +1,20 @@
 package gui.elements.panels {
-import gui.elements.panels.pannelsElements.FriendElement;
-
+import gui.elements.panels.panelsElements.OfflineFriendElement;
+import gui.elements.panels.panelsElements.OnlineFriendElement;
 import starling.events.Event;
 
 public class FriendPanel extends PagePanelBase {
 
-    protected override function get elementType():Class { return FriendElement; }
+    private var _isOnlineFriends:Boolean;
+    protected override function get elementType():Class {
+        if(_isOnlineFriends)
+            return OnlineFriendElement;
+        else
+            return OfflineFriendElement;
+    }
 
-    public function FriendPanel(data:Array) {
+    public function FriendPanel(data:Array, isOnlineFriends:Boolean) {
+        _isOnlineFriends = isOnlineFriends;
         super(data,4,2);
         _columnsInterval = 250;
         _linesInterval = 65;

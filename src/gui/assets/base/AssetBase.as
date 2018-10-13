@@ -1,7 +1,6 @@
 package gui.assets.base {
 import flash.display.Bitmap;
 import flash.utils.Dictionary;
-
 import starling.textures.Texture;
 import starling.textures.TextureAtlas;
 
